@@ -1,0 +1,137 @@
+<!-- Mason Davidson 4/22/2022 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="About Us Rough Draft">
+<meta name="author" content="Mason Davidson">
+<meta name="keywords" content="HTML, CSS">
+<meta name="viewport" content="width=device-width, initial=scale1.0">
+<title>Quick rough draft of about us page.</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, times new roman;
+  background-color: #efc050;
+}
+header {
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  font-family: times new roman;
+}
+.logo_container{
+width: 60%;
+margin-top:5px;
+float: left;
+}
+
+.nav_container{
+width: 40%;
+margin-top:5px;
+float: right;
+text-align: right;
+}
+
+nav {
+  float: center;
+  width: 100%;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  float: center;
+}
+nav ul li {
+  display: inline;
+  background-color: yellow;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-family: times new roman;
+  float: center;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #efc050;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+footer {
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-family: Helvetica;
+}
+
+.clear{clear: both;}
+
+@media (max-width: 1200px) {
+ .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #FFFFFA;
+  width: 110%;
+}
+  .grid-item img {
+  width: 100%}
+}
+</style>
+</head>
+<body>
+</div>
+    
+<div class="nav_container">
+  <nav>
+    <ul>
+      <li><a href="layout_one.html">Home</a></li>
+    </ul>
+  </nav>
+  </div>
+ 
+ <div class="clear"></div>
+ 
+<header>
+    <p> Welcome to the About us Page! </p>
+</header>
+
+<section>
+ 
+  <article>
+    <h3>About us Information.</h3>
+    <p>Information for the about us page.</p>
+	<p>Information for the about us page.</p>
+	<p>Information for the about us page.</p>
+    <p>Information for the about us page.</p>
+	  <div class="grid-container">
+    <div class="grid-item"><img src="images/400.png" alt="400 placeholder"></div>
+  </article>
+</section>
+</body>
+</html>
+
+</header>
